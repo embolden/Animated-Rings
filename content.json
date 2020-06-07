@@ -1,0 +1,35 @@
+{
+	"Format": "1.14.0",
+	"ConfigSchema": {
+		"AmethystRing": {
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+	},
+	"Changes": [
+		{
+			"LogName": "AmethystRing",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/amethyst-ring.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 16,
+				"Y": 352,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 10,
+			"When": {
+				"AmethystRing": "true"
+			},
+		},
+	]
+}
